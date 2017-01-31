@@ -35,5 +35,9 @@ public @interface ItemDoc {
   </p>
   </li>
 </ul>
+<h3>Conclusions</h3>
+<p>
+As you can see, it's  pretty easy to get started with <b>JPA</b> annotations to annotate your code as you can see in the <i>BookTest.java</i>, its easy to retrieve all methods and check if they are annotated and thus contain the needed docs, the process of checking that the documentation is correct is a more complicated matter however 😕 as this is an area in which for the most part a human is still needed.
+</p>
 
 
