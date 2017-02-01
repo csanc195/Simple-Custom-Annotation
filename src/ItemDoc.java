@@ -30,7 +30,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface ItemDoc {
-    public String desc() default "";
-    public String params() default "";
-    public String returns() default "";
+    String desc() default "";
+    String params() default "";
+    String returns() default "";
 }
